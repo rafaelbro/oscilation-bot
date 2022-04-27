@@ -57,11 +57,11 @@ docker-compose up --build
 ## NPM scripts
 
 * `npm run test`: Run tests & generate coverage report.
-* `npm run db:create`: Create Database.
+* `npm run db:create`: Create development database.
+* `npm run db:create:test`: Create test database.
 * `npm run db:migrate:make`: Detect models changes and create pending migrations.
-* `npm run db:migrate`: Run pending migrations in Database.
-* `npm run db:create:test`: Create Test Database.
+* `npm run db:migrate`: Run pending migrations in development database.
 * `npm run db:migrate:test`: Run pending migrations in Test Database.
 * `npm run build`: Build the project and create folder `build` with the `js` version.
-* `npm run start`: Start project in local enviroment with development env variables.
+* `npm run start`: Start project in local enviroment with development .env variables.
 * `npm run dockerbuild`: Build docker image of project.
