@@ -1,0 +1,7 @@
+#Libraries
+node_modules/*
+
+#ignore generated JS file
+build/*
+
+coverage/*

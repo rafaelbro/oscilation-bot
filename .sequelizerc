@@ -1,0 +1,8 @@
+var path = require('path')
+
+module.exports = {
+  'config': path.resolve('db/config', 'database.js'),
+  'migrations-path': path.resolve('db', 'migrate'),
+  'seeders-path': path.resolve('db', 'seed'),
+  'models-path': path.resolve('src', 'models')
+}
